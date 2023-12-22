@@ -85,6 +85,18 @@ body{
 }
 
 .content{
+    margin-left: 2rem;
     display: block;
+    padding: 5rem;
+    color: black;
+}
+
+.content > h1{
+    color:rgb(12, 155, 211) ;
+}
+
+.read-button{
+    background-color: rgb(12, 155, 211);
+    color: white;
 }
 
