@@ -1,0 +1,44 @@
+
+
+
+body{
+    background-color: rgb(216, 215, 215);
+}
+
+.navbar{
+    position: relative;
+    display: flex;
+    width: 50vw;
+    margin-left: 50%;
+}
+
+.container-fluid{
+    display: flex;
+}
+
+.contents-container{
+    display: flex;
+}
+
+.navbar{
+    margin: 0;
+    position: absolute;
+    display: flex;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    padding: 0px;
+}
+
+.nav-link{
+    color: white;
+    margin: 0%;
+
+}
+
+.nav-item{
+    margin-left: 6rem;
+}
+
+
+
