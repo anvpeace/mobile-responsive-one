@@ -2,42 +2,49 @@
 
 
 body{
-    background-color: rgb(216, 215, 215);
+    background-color: rgba(235, 233, 233, 0.74);
 }
 
 .navbar{
     position: relative;
     display: flex;
-    width: 50vw;
-    margin-left: 50%;
-}
-
-.container-fluid{
-    display: flex;
-}
-
-.contents-container{
-    display: flex;
-}
-
-.navbar{
-    margin: 0;
-    position: absolute;
-    display: flex;
+    width: 100vw;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 24px;
     font-weight: bold;
     padding: 0px;
 }
 
+.container-fluid{
+    margin-left: 22%;
+    background-color: rgb(216, 215, 215);
+    width: 55%;
+}
+
+.contents-container{
+    display: flex;
+    margin-left: 1rem; 
+}
 .nav-link{
     color: white;
-    margin: 0%;
+}
 
+.nav-imgs{
+    width: 65px;
+    height: 55px;
+    
+}
+
+#connect, #about{
+    margin-left: 1rem;
 }
 
 .nav-item{
+    position: relative;
     margin-left: 6rem;
+    margin-top: 2rem;
+    width: 115px;
+    height: 60px;
 }
 
 
