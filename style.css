@@ -2,7 +2,9 @@
 
 
 body{
-    background-color: rgba(235, 233, 233, 0.74);
+    background-image: linear-gradient(to right,rgba(221, 220, 220, 0.836) , rgba(235, 233, 233, 0.74));
+
+    /* background-color: rgba(235, 233, 233, 0.74); */
 }
 
 
@@ -12,16 +14,17 @@ body{
 .navbar{
     position: relative;
     display: flex;
-    width: 100vw;
+    width: 100%;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 24px;
     font-weight: bold;
     padding: 0px;
 }
 
-.container-fluid{
+.nav-container{
+    background-image: linear-gradient(to right,rgba(221, 220, 220, 0.836) , rgba(235, 233, 233, 0.74));
     margin-left: 12%;
-    background-color: rgba(221, 220, 220, 0.836);
+    padding: 0%;
     width: 75%;
 }
 
@@ -31,7 +34,7 @@ body{
 
 .contents-container{
     display: flex;
-    margin-left: 12.5rem; 
+    margin-left: 8rem; 
     margin-bottom: 1.5rem;
 }
 .nav-link{
@@ -57,8 +60,8 @@ body{
 
 /* ```````````````````````````````````````````````````````TOP ROW```````````````````````````````````````````````````````````````````` */
 
-.row{
-    background-color: rgba(221, 220, 220, 0.836);
+.row-one{
+    background-image: linear-gradient(to right,rgba(221, 220, 220, 0.836) , rgba(235, 233, 233, 0.74));
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     margin-left: 12%;
     width: 75%;
@@ -67,8 +70,7 @@ body{
 .container{
     display: flex;
     background-color: white;
-    border-radius: .5rem, .5rem;
-    box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+    box-shadow: rgba(0, 0, 0, 0.822) 0px 25px 20px -20px;
     padding: 0%;
     margin-top: 1rem;
     width: 95%;
@@ -92,11 +94,51 @@ body{
 }
 
 .content > h1{
-    color:rgb(12, 155, 211) ;
+    color:rgb(12, 155, 211);
 }
 
 .read-button{
     background-color: rgb(12, 155, 211);
     color: white;
+}
+
+/* ```````````````````````````````````````````````````````ROW TWO```````````````````````````````````````````````````````````````````` */
+
+
+.row-two{
+    background-image: linear-gradient(to right,rgba(221, 220, 220, 0.836) , rgba(235, 233, 233, 0.74));
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-left: 12%;
+    width: 75%; 
+}
+
+.container-two{
+    margin-left: 2.5rem;
+    margin-top: 5rem;
+    display: flex;
+    padding: 0%;
+    width: 95%;
+}
+
+.col-4{
+    padding: 2rem;
+}
+
+.color-wrap{
+    border-radius: 50px;
+    padding: 2rem;
+    color: white;
+}
+
+#blue{
+    background-color: rgb(12, 155, 211);
+}
+
+#red-orange{
+    background-color: rgba(255, 68, 0, 0.925);
+}
+
+#orange{
+    background-color: orange;
 }
 
