@@ -35,8 +35,8 @@ body{
 
 
 .comp-info{
-    margin-left: 4rem;
-    margin-top: 2rem;
+    margin-left: 5rem;
+    /* margin-top: 2rem; */
     display: flex;
 }
 
@@ -47,40 +47,61 @@ body{
 }
 
 .comp-name > h3{
-    margin-top: 3rem;
+    margin-top: 2rem;
+    color: rgb(7, 85, 153);
 }
 
 #second{
+    font-family: 'Open Sans', sans-serif;
+    color: rgb(0, 162, 255);
     margin-left: .5rem;
 }
 
 .contents-container{
-    margin-bottom: 1.5rem;
-    margin-right: 5rem; 
+    /* margin-bottom: 1.5rem; */
+    margin-right: 4rem; 
     margin-top: 2rem;
     display: flex;
 }
 
+.nav-item{
+    position: relative;
+}
+
+.nav-wrap{
+    position: relative;
+    display: block;
+}
+
 .nav-link{
-    color: white;
+    font-size: 14px;
+    width: 125px;
+    height: 60px;
+}
+
+#home-link{
+    color: rgb(0, 162, 255);
+    margin-left: 13px;
+}
+
+#blog-link{
+    color: orange;
+    margin-left: 8px;
+}
+
+#connect-link{
+    color: rgb(39, 105, 83);
+}
+
+#about-link{
+    color: rgb(7, 85, 153);
 }
 
 .nav-imgs{
     width: 65px;
     height: 55px;
-    
 }
 
-/* #connect, #about{
-    margin-left: 1rem;
-} */
-
-.nav-item{
-    position: relative;
-    margin-left: 3rem;
-    width: 115px;
-    height: 60px;
-}
 
 /* ```````````````````````````````````````````````````````TOP ROW```````````````````````````````````````````````````````````````````` */
 
@@ -95,7 +116,7 @@ body{
     display: flex;
     background-color: white;
     box-shadow: rgba(0, 0, 0, 0.822) 0px 25px 20px -20px;
-    margin-top: 3rem;
+    /* margin-top: 2rem; */
     padding: 0%;
     width: 95%;
 }
@@ -107,7 +128,7 @@ body{
 
 #row-one-img{
     width: 675px;
-    height: 640px;
+    height: 540px;
 }
 
 .content{
@@ -117,13 +138,22 @@ body{
     color: black;
 }
 
+.content > h1, p{
+    margin-bottom: 2rem;
+}
+
 .content > h1{
     color:rgb(12, 155, 211);
 }
 
 .read-button{
     background-color: rgb(12, 155, 211);
+    border-radius: 8px;
     color: white;
+    border: none;
+    width: 8rem;
+    height: 3rem;
+
 }
 
 /* ```````````````````````````````````````````````````````ROW TWO```````````````````````````````````````````````````````````````````` */
@@ -137,7 +167,7 @@ body{
 }
 
 .container-two{
-    margin-left: 2.5rem;
+    margin-left: 2rem;
     margin-top: 5rem;
     display: flex;
     padding: 0%;
